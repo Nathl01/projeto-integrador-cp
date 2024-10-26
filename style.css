@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+  background-image: url(pexels-incrediblerafa-4737484.jpg);
+  width: 100%;
+  min-width: 30%;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding-top: 70px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.055);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  align-items: center;
+  margin-left: 80px;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 50px;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.nav-button:hover {
+  background-color: #fff;
+  color: #113156;
+  transition: 0.3s ease;
+}
+
+.logo img {
+  height: 35px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  color: #d5dbdb;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.upload-container {
+  background-color: rgba(24, 24, 43, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff;
+}
+
+.upload-container > p {
+  font-size: 14px;
+  font-weight: normal;
+  color: #e7ebeb;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #4c8bb6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #377197;
+  transition: 0.3s ease;
+}
+
+#status{
+  font-size: 14px;
+  font-weight: normal;
+  color:e7ebeb;
+}
+
+button {
+  background-color: #4c8bb6;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #377197;
+  transition: 0.3s ease;
+}
+
+.status {
+  margin-top: 10px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 70vh;
+}
+
+.text {
+  color: #fff;
+  font-weight: 400;
+}
+
+.text > h2 {
+  font-weight: normal;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.055);
+  color: #d5dbdb;
+  text-align: center;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
