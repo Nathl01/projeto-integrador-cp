@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/icons/logo-nav.ico" type="image/x-icon">
+    <title>UpCload</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <img src="/icons/logo-site.svg" alt="Logo do Site">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#">Upload</a></li>
+            <li><a href="#">Login</a></li>
+            <button class="nav-button">Criar Conta</button>
+        </ul>
+    </nav>
+    <div class="home">
+        <div class="text">
+            <h1>Bem-vindo ao UpCload!</h1>
+            <h2>Envie seus arquivos para a nuvem<br> com segurança.</h2>
+            <p>Nosso site oferece uma solução simples e eficiente para armazenar<br> seus arquivos. Com apenas alguns cliques, você pode fazer upload<br> de imagens diretamente para o Amazon S3, garantindo acessibilidade<br> e proteção de dados.</p>
+        </div>
+        <div class="upload-container">
+            <h3>Upload de Arquivos</h3>
+            <p>Selecione as imagens que deseja enviar.</p>
+            <input type="file" id="imageFile" accept="image/*">
+            <button onclick="clearSelection()">Limpar</button>
+            <button onclick="uploadImage()">Enviar</button>
+            <div class="status" id="status"></div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 UpCload. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1042.0.min.js"></script>
+
+</body>
+
+</html>
