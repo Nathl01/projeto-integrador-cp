@@ -1,4 +1,4 @@
-<h1>Projeto Integrador: Plataforma de Análise de Imagens Online</h1>
+<h1>Projeto Integrador da Campinho Digital: Plataforma de Análise de Imagens Online</h1>
 <br>
 
 <h2>Visão Geral</h2>
@@ -21,8 +21,6 @@ O projeto foi desenvolvido com foco em minimizar custos, utilizando serviços AW
 
 <h2>Desenvolvimento do Website</h2>
 O website foi desenvolvido utilizando HTML e CSS, apresentando os currículos dos membros do grupo. A implantação na nuvem AWS garante uma rede de entrega de conteúdo com baixa latência, segurança e armazenamento durável, capaz de atender a demanda de 11 milhões de requisições por mês.
-
-<h2>Arquitetura</h2>
 
 <h2>Tecnologias e Serviços Utilizados</h2>
 
