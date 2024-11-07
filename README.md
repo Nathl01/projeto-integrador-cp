@@ -22,8 +22,6 @@ O projeto foi desenvolvido com foco em minimizar custos, utilizando serviços AW
 <h2>Desenvolvimento do Website</h2>
 O website foi desenvolvido utilizando HTML e CSS, apresentando os currículos dos membros do grupo. A implantação na nuvem AWS garante uma rede de entrega de conteúdo com baixa latência, segurança e armazenamento durável, capaz de atender a demanda de 11 milhões de requisições por mês.
 
-<h2>Arquitetura</h2>
-
 <h2>Tecnologias e Serviços Utilizados</h2>
 
 Para alcançar os objetivos do projeto, utilizamos uma variedade de serviços da AWS, cada um desempenhando um papel crucial na arquitetura da solução:
