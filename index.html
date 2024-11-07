@@ -4,37 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/icons/logo-nav.ico" type="image/x-icon">
+    <link rel="icon" href="/projeto-integrador-cp/icons/logo-nav.ico" type="image/x-icon">
     <title>UpCload</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="#" class="logo">
-            <img src="/icons/logo-site.svg" alt="Logo do Site">
-        </a>
-        <ul class="nav-links">
-            <li><a href="#">Upload</a></li>
-            <li><a href="#">Login</a></li>
-            <button class="nav-button">Criar Conta</button>
-        </ul>
-    </nav>
-    <div class="home">
-        <div class="text">
-            <h1>Bem-vindo ao UpCload!</h1>
-            <h2>Envie seus arquivos para a nuvem<br> com segurança.</h2>
-            <p>Nosso site oferece uma solução simples e eficiente para armazenar<br> seus arquivos. Com apenas alguns cliques, você pode fazer upload<br> de imagens diretamente para o Amazon S3, garantindo acessibilidade<br> e proteção de dados.</p>
-        </div>
-        <div class="upload-container">
-            <h3>Upload de Arquivos</h3>
-            <p>Selecione as imagens que deseja enviar.</p>
-            <input type="file" id="imageFile" accept="image/*">
-            <button onclick="clearSelection()">Limpar</button>
-            <button onclick="uploadImage()">Enviar</button>
-            <div class="status" id="status"></div>
-        </div>
-    </div>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="/projeto-integrador-cp/icons/logo-site.svg" alt="Logo do Site">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#upload">Upload</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <button class="nav-button">Criar Conta</button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="upload">
+            <div class="home">
+                <div class="text">
+                    <h1>Bem-vindo ao UpCload!</h1>
+                    <h2>Envie seus arquivos para a nuvem<br> com segurança.</h2>
+                    <p>Nosso site oferece uma solução simples e eficiente para armazenar<br> seus arquivos. Com apenas alguns cliques, você pode fazer upload<br> de imagens diretamente para o Amazon S3, garantindo acessibilidade<br> e proteção de dados.</p>
+                </div>
+                <div class="upload-container">
+                    <h3>Upload de Arquivos</h3>
+                    <p>Selecione as imagens que deseja enviar.</p>
+                    <input type="file" id="imageFile" accept="image/*">
+                    <button onclick="clearSelection()">Limpar</button>
+                    <button onclick="uploadImage()">Enviar</button>
+                    <div class="status" id="status"></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <h1>Contato</h1>
+                <p>Entre em contato conosco para mais informações.</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <h3>Nathalia France</h3>
+                    <p>Analista de Nuvem Jr.</p>
+                    <a href="/projeto-integrador-cp/curriculos/CV - Nathalia.France.pdf" class="botao-link" target="_blank">Currículo</a>
+                    <a href="https://www.linkedin.com/in/nathaliafrance/" target="_blank" class="botao-link">LinkedIn</a>
+                </div>
+                <div class="contact-card">
+                    <h3>Leidiane Montanha</h3>
+                    <p>Analista de Nuvem Jr.</p>
+                    <a href="/projeto-integrador-cp/curriculos/CV - Leidiane.Montanha-1-2.pdf" class="botao-link" target="_blank">Currículo</a>
+                    <a href="https://www.linkedin.com/in/leidiane-montanha/" target="_blank" class="botao-link">LinkedIn</a>
+                </div>
+                <div class="contact-card">
+                    <h3>Maria Clara</h3>
+                    <p>DevOps</p>
+                    <a href="/projeto-integrador-cp/curriculos/" class="botao-link" target="_blank">Currículo</a>
+                    <a href="https://www.linkedin.com/in/mariaclaraa/" target="_blank" class="botao-link">LinkedIn</a>
+                </div>
+                <div class="contact-card">
+                    <h3>Bruno Belau</h3>
+                    <p>Analista de Nuvem Jr.</p>
+                    <a href="/projeto-integrador-cp/curriculos/Modelo curriculo Bruno Belau de Castro Martins 2024 - ATUALIZADO.pdf" class="botao-link" target="_blank">Currículo</a>
+                    <a href="https://www.linkedin.com/in/bruno-belau-de-castro-martins/" target="_blank" class="botao-link">LinkedIn</a>
+                </div>
+                <div class="contact-card">
+                    <h3>Josivana Cunha</h3>
+                    <p>Analista de Nuvem Jr.</p>
+                    <a href="/projeto-integrador-cp/curriculos/CV Josivana - Alista de FinOps Jr.pdf" class="botao-link" target="_blank">Currículo</a>
+                    <a href="https://www.linkedin.com/in/josivana-silva-cunha/" target="_blank" class="botao-link">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
         <p>© 2024 UpCload. Todos os direitos reservados.</p>
     </footer>
