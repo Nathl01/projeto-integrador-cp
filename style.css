@@ -183,11 +183,11 @@ h1{
 .contact-info{
   display: flex;
   flex-direction: row;
-  gap: 40px; /* Espaçamento entre os cards */
-  justify-content: center; /* Centraliza os cards horizontalmente */
-  flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
-  max-width: 900px; /* Limita a largura total para controlar a quebra de linha */
-  margin: 0 auto; /* Centraliza o contêiner na página */
+  gap: 40px; 
+  justify-content: center;
+  flex-wrap: wrap; 
+  max-width: 900px; 
+  margin: 0 auto;
   padding-bottom: 40px;
 }
 
@@ -198,7 +198,7 @@ h1{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   color: #fff;
-  transition: transform 0.5s ease, box-shadow 0.5s ease; /* Adiciona transição suave */
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
   cursor: pointer;
   justify-content: center;
   align-items: center;
