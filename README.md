@@ -1,4 +1,4 @@
-<h1>Projeto Integrador: Plataforma de Análise de Imagens Online</h1>
+<h1>Projeto Integrador da Campinho Digital: Plataforma de Análise de Imagens Online</h1>
 <br>
 
 <h2>Visão Geral</h2>
