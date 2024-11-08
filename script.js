@@ -6,14 +6,14 @@ function clearSelection() {
 console.log()
 
 AWS.config.update({
-  accessKeyId: 'AKIA3AI3AAPLXMYN4KVU',
-  secretAccessKey: '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',
-  region: 'us-west-2'  // Defina a região do seu bucket
+  accessKeyId: '',
+  secretAccessKey: '',
+  region: ''  // Defina a região do seu bucket
 });
 
 const s3 = new AWS.S3({
-  apiVersion: '2006-03-01',
-  params: { Bucket: 'projetointegradortest001/ProjInt/' }  // Nome do seu bucket
+  apiVersion: '',
+  params: { Bucket: '' }  // Nome do seu bucket
 });
 
 function uploadImage() {
